@@ -16,16 +16,16 @@ Atividade com Classes Heranças para ProWay - Havan Labs
 
 	As duas classes vão possuir ID e NOME, porém, produto irá conter uma variável VALOR e categoria irá conter uma variável DESCRIÇÃO, então é possível criar uma classe Base com ID e NOME que será herdada nas classes Produto e Categoria para que elas possuam ID e NOME, tendo a necessidade de criar apenas mais uma propriedade VALOR para Produto e DESCRIÇÃO para Categoria.
 
-	5 - Defina Composição: Composição é uma forma de somar 2 classes que 'dependem' uma da outra, por exemplo, um produto contém uma categoria, porém, categoria é diferente de produto, mas para cadastrar um produto é importante ter definido uma categoria para esse produto. Dessa forma é possível fazer uma composição da classe Categoria dentro da classe Produto, para que sejam coisas distintas, mas que fazem parte uma da outra.
+5 - Defina Composição: Composição é uma forma de somar 2 classes que 'dependem' uma da outra, por exemplo, um produto contém uma categoria, porém, categoria é diferente de produto, mas para cadastrar um produto é importante ter definido uma categoria para esse produto. Dessa forma é possível fazer uma composição da classe Categoria dentro da classe Produto, para que sejam coisas distintas, mas que fazem parte uma da outra.
 
-	6 - Diferença de parâmetro e argumento: Parâmetro é uma forma de referenciar variáveis, então podemos receber valores para um objeto atráves de parâmetros definidos em um método, e Arguemtos são os valores definidos que irão ser enviados para o parâmetro.
+6 - Diferença de parâmetro e argumento: Parâmetro é uma forma de referenciar variáveis, então podemos receber valores para um objeto atráves de parâmetros definidos em um método, e Arguemtos são os valores definidos que irão ser enviados para o parâmetro.
 
-	7 - Sobrecarga de métodos: A sobrecarga de métodos é uma forma de acessar blocos de intruções diferentes.
+7 - Sobrecarga de métodos: A sobrecarga de métodos é uma forma de acessar blocos de intruções diferentes.
 	 
-		EXEMPLO: É possível ter dois métodos com o mesmo nome, um que recebe uma string e outro que recebe um inteiro, e dependendo do parâmetro que esse método recebe, ele executa o bloco de instruções definido pelo método e parâmetro recebido. Então se você envia uma string, o método que contém a string como parâmetro executa uma instrução, mas se você usar o método enviando um inteiro, esse método que recebe um int executa outro tipo de instrução.
+	EXEMPLO: É possível ter dois métodos com o mesmo nome, um que recebe uma string e outro que recebe um inteiro, e dependendo do parâmetro que esse método recebe, ele executa o bloco de instruções definido pelo método e parâmetro recebido. Então se você envia uma string, o método que contém a string como parâmetro executa uma instrução, mas se você usar o método enviando um inteiro, esse método que recebe um int executa outro tipo de instrução.
 
-	8 - Parâmetros Opcionais: São parâmetros definidos com algum valor Padrão, assim os parâmetros padrões devem ser definidos nas posições finais, e se não preenchidos, continuam com seu valor padrão, tornando o parâmetro opcional.
+8 - Parâmetros Opcionais: São parâmetros definidos com algum valor Padrão, assim os parâmetros padrões devem ser definidos nas posições finais, e se não preenchidos, continuam com seu valor padrão, tornando o parâmetro opcional.
 
-	9 - Parâmetros Nomeados: São parâmetros que são identificados por nomes mais didáticos.
+9 - Parâmetros Nomeados: São parâmetros que são identificados por nomes mais didáticos.
 		
-		EXEMPLO: public void Pessoa(nome: "Gabriel", dataNascimento: 1999-03-08);
+	EXEMPLO: public void Pessoa(nome: "Gabriel", dataNascimento: 1999-03-08);
